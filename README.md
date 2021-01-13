@@ -21,9 +21,9 @@ is of 2 bytes(16 bits)
 
 pseudo code for encoding:
 
-  MAX_TABLE_SIZE=2(bit_length) //bit_length is number of encoding bits
-  initialize TABLE[0 to 255] = code for individual characters
-  STRING = null
+\\ MAX_TABLE_SIZE=2(bit_length) //bit_length is number of encoding bits
+\\ initialize TABLE[0 to 255] = code for individual characters
+\\ STRING = null
   while there are still input symbols:
   SYMBOL = get input symbol
   if STRING + SYMBOL is in TABLE:
