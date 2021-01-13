@@ -66,12 +66,12 @@ pseudo code for decoding:
 
 Open the program directory  using command prompt execute the program with below format
 
-  "python encode.py <input.txt> <bit-length> "
-  The output is stored in input.lzw in 16 bit format.
+    "python encode.py <input.txt> <bit-length> "
+    The output is stored in input.lzw in 16 bit format.
 
   Similarly for decoding execute as below
-  "python decoded.py  <input.lzw> <bit-length>
-
-  The decoded file is stored as input_decoded.txt file.
+  
+    "python decoded.py  <input.lzw> <bit-length>"
+    The decoded file is stored as input_decoded.txt file.
 
 
