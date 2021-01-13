@@ -1,4 +1,4 @@
-# LZW-Compressor
+## LZW-Compressor
 
   
 - Name :- Prashanth Minkuri
@@ -12,7 +12,7 @@ encode.py for compression and decode.py for decompression
 
 
 
-### ENCODING:
+### Encoding :
 
 encode.py file is used to encode the input data using dictionary data structure
 where the key and values are characters and ASCII values.
@@ -36,7 +36,7 @@ pseudo code for encoding:
   output the code for STRING
 
 
-### DECODING:
+### Decoding :
  
 Decode.py file is used for decoding  and the result is stored in input_decoded.txt
 
